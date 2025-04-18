@@ -1,2 +1,3 @@
 # missions_template
-Voralge für Missionsbauer
+
+Vorlage für Missionsbauer

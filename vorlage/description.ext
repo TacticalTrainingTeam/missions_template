@@ -19,7 +19,7 @@ class Header
 
 // - Respawn ------------------------------------------------------------------
 respawn = 3;
-respawnButton = 0;
+respawnButton = 1;
 respawnDelay = 5;
 respawnDialog = 0;
 

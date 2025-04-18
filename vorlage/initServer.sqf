@@ -39,3 +39,15 @@ setDate [2016, 6, 25, 11, 15]; //Datum ändern
         _x enableAI "AUTOCOMBAT";
     };
 } forEach allUnits;
+
+// Kisten befüllen
+// Variablen der Fhz und Inhalt anpassen!
+[
+    [fahrzeug_01],
+    [
+        ["Toolkit", 1],
+        ["ACE_Entrenchingtool", 5],
+        ["30Rnd_556x45_Stanag", 50]
+    ],
+    false
+] call ttt_common_fnc_crateFiller;

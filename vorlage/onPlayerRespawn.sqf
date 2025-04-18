@@ -18,5 +18,5 @@
  */
 
 // Loadoutzuweisung
-private _loadoutSQF = ["loadout\", (player getVariable ["loadout", "rifleman"]), ".sqf"] joinString "";
+private _loadoutSQF = ["loadouts\", (player getVariable ["loadout", "rifleman"]), ".sqf"] joinString "";
 [] spawn compile preprocessFileLineNumbers _loadoutSQF;

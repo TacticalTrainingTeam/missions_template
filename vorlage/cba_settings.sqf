@@ -1,8 +1,6 @@
 // ACE Sanitäter
 force ace_medical_statemachine_cardiacArrestTime = 600;
 
-force ace_medical_treatment_litterCleanupDelay = -1;
-
 force ace_medical_treatment_medicEpinephrine = 1;
 force ace_medical_treatment_locationEpinephrine = 0;
 
